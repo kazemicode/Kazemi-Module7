@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgCSUMB"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:contentDescription="@string/logo_desc"
+        app:srcCompat="@drawable/csumblogo" />
+
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/course_header"
+        android:textAlignment="viewStart"
+        android:textColor="@color/bgCSUMB"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvCST300"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/cst300" />
+
+    <TextView
+        android:id="@+id/tvCST338"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/cst338" />
+
+    <TextView
+        android:id="@+id/tv311"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/cst311" />
+
+    <TextView
+        android:id="@+id/tv334"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/cst334" />
+
+    <TextView
+        android:id="@+id/tv336"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/cst336" />
+
+    <TextView
+        android:id="@+id/tv363"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/cst363" />
+
+    <TextView
+        android:id="@+id/tv383"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/cst383" />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/or"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cst325"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/cst325" />
+
+    <TextView
+        android:id="@+id/tv438"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/cst438" />
+
+    <TextView
+        android:id="@+id/tv462"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/cst462" />
+
+    <TextView
+        android:id="@+id/tv499"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/cst499" />
+
+    <TextView
+        android:id="@+id/tvDirections"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="@string/directions"
+        android:textAlignment="viewStart"
+        android:textColor="@color/bgCSUMB"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etCourseNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:hint="@string/textField"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:autofillHints="" tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="sendMessage"
+        android:text="@string/submit"
+        android:textColor="@color/bgCSUMB" />
+
+</LinearLayout>
